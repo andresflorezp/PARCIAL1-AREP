@@ -18,8 +18,6 @@ public class Calculate {
 			Data.add(Double.parseDouble(data_base[i])); 
 			
 		}
-		
-		
 	}
 	public double calculate_max() {
 		double MAX = Double.MIN_VALUE;
