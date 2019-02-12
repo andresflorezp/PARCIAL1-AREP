@@ -44,7 +44,7 @@ public class ServidorWeb {
 
 	public static String answer(Request req, Response resp) {
 		String set1 = req.queryParams("DataOne");
-		if(set1=="") {
+		if(set1==null) {
 			return "<!doctype html>\n" + "<html lang=\"en\">\n" + "<head>\n" + "    <meta charset=\"UTF-8\">\n"
 					+ "    <meta name=\"viewport\"\n"
 					+ "          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n"
