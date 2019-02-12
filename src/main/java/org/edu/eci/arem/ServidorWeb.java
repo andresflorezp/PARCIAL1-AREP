@@ -66,9 +66,9 @@ public class ServidorWeb {
 				+ "    <meta name=\"viewport\"\n"
 				+ "          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n"
 				+ "    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n" + "    <title>Document</title>\n"
-				+ "</head>\n" + "<body>\n" + "    <h1>AREP-PARCIAL</h1>\n" + "\n" + "[{\"maximo\":" + max + ","
+				+ "</head>\n" + "<body>\n" + "    <h1>AREP-PARCIAL</h1>\n" + "\n" + "{\"maximo\":" + max + ","
 				+ "\"minimo\":" + min + "," + "\"sumatoria\":" + sum + "," + "\"listaNumeros\":" + datas.toString()
-				+ "," + "\"multiplicatoria\":" + mult + "}]" + "\n" + "\n" + "</body>\n" + "</html>";
+				+ "," + "\"multiplicatoria\":" + mult + "}" + "\n" + "\n" + "</body>\n" + "</html>";
 		return respuesta;
 	}
 
