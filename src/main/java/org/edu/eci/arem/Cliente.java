@@ -21,8 +21,6 @@ public class Cliente {
 			clienteSocket = new Socket(HOST, PORT);
 			in = new BufferedReader(new InputStreamReader(clienteSocket.getInputStream()));
 			out = new PrintWriter(clienteSocket.getOutputStream());
-			
-
 			String mensaje;
 			while ((mensaje = in.readLine()) != null) {
 
@@ -31,8 +29,6 @@ public class Cliente {
 					break;
 
 			}
-			
-
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
